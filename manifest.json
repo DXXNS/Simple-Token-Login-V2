@@ -1,0 +1,15 @@
+
+{
+  "manifest_version": 3,
+  "name": "Simple Login v2",
+  "version": "1.0",
+  "description": "Simple Login",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["*://discord.com/login"] ,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
